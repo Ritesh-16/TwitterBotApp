@@ -17,7 +17,7 @@ const App = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3001/api/generate-tweet', {
+      const response = await fetch('https://twitterbotapp.onrender.com/api/generate-tweet', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
